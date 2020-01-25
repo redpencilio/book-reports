@@ -1,4 +1,4 @@
-import { app, query, sparqlEscapeUri } from 'mu';
+import { app, query } from 'mu';
 
 app.get('/book-reports', async function( req, res ) {
   let reportsData = await getReports();
